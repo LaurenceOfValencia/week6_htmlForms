@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Validating Form Data</title>
+  </head>
+  <body>
+    <div class="signup_container">
+      <h1>Sign Up</h1>
+      <form id="myForm" action="#">
+        <div name="error" id="errormsg_fname"></div>
+        <input type="text" id="firstName" placeholder="First Name">
+        <br>
+        <div name="error" id="errormsg_midname"></div>
+        <input type="text" id="middleInitial" placeholder="Middle Initial">
+        <br>
+        <div name="error" id="errormsg_lname"></div>
+        <input type="text" id="lastName" placeholder="Last Name">
+        <br>
+        <div name="error" id="errormsg_email"></div>
+        <input type="text" id="email_input" placeholder="Email Address">
+        <br>
+        <button type="submit">Submit</button>
+        <br>
+        <button type="reset" id="resetAll">Reset</button>
+      </form>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

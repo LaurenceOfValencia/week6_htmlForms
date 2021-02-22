@@ -1,0 +1,33 @@
+.signup_container {
+  border-style: solid;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signup_container input {
+  width: 300px;
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px ;
+  margin-bottom: 12px;
+  padding-left: 10px;
+}
+
+button {
+  width: 315px;
+  height: 40px;
+}
+
+
+#resetAll {
+  width: 315px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+}
